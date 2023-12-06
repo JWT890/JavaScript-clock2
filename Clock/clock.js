@@ -13,3 +13,5 @@ function updateClock() {
 
   // Initial call to set the clock when the page loads
   updateClock();
+
+  modules.exports = updateClock;
